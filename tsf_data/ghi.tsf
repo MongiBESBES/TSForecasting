@@ -1,15 +1,13 @@
 # Dataset Information
 # This dataset is an aggregated version of NASA/POWER CERES/MERRA2 Native Resolution Daily Data dataset.
 # This file contains 240 monthly series representing the GHI (w/m²) for the period of 2004-01-01 to 2023-12-31.
-# 
 #
 # For more details, please refer to
-# AusGrid, 2019. Solar home electricity data. Accessed: 2020-05-10. URL https://www.ausgrid.com.au/Industry/Our-Research/Data-to-share/Solar-home-electricity-data
-#
-@relation Ausgrid
+# mongi.besbes@istic.ucar.tn
+@
 @attribute series_name string
 @attribute start_timestamp date
-@frequency weekly
+@frequency daily
 @horizon 8
 @missing false
 @equallength true
